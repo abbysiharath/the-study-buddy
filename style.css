@@ -15,13 +15,6 @@ a:hover {
     color: rgb(237, 31, 100);
 }
 
-.header {
-    
-    margin-bottom: 100px;
-    
-  
-    
-}
 
 .header-li {
     background-color: black;
@@ -31,6 +24,11 @@ a:hover {
 
 ul {
     background-color: black;
+}
+
+.section-1 {
+    margin-top: 50px;
+    float: left;
 }
 
 .text {
@@ -51,10 +49,15 @@ ul {
     margin-bottom: 1300px;
 }
 
-.text-2 {
-    margin-top: 1000px;
+.section-2 {
+    margin-top: 50px;
     float: left;
-    width: 50%;
+}
+
+.text-2 {
+   margin-top: 100px;
+    width: 45%;
+    margin-left: 5%;
     
 }
 
