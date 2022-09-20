@@ -41,23 +41,86 @@ ul {
     width: 40%;
     float: right;
     margin-left: 10%;
-    margin-top: 15%;
+    margin-top: 8%;
 
 }
 
-.cloud-services {
-    margin-bottom: 1300px;
+.text-1-1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 50px;
+
+
 }
 
 .section-2 {
-    margin-top: 50px;
+    margin-top: 3%;
     float: left;
 }
 
+.google-img {
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+
 .text-2 {
-   margin-top: 100px;
     width: 45%;
+    margin-top: 100px;
+    float: left;
+    
     margin-left: 5%;
     
+}
+
+.car {
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 17%;
+    float: right;
+}
+
+.text-2-1 {
+    float: left;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-right: 10%;
+}
+
+.section-5 {
+    float: left;
+    margin-top: 100px;
+}
+
+.bitcoin-img {
+    width: 100%;
+    float: left;
+    margin-left: 45%;
+}
+
+
+
+.text-3 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.section-6 {
+    float: left;
+}
+
+.solana-img {
+    width: 45%;
+    margin-left: 10%;
+    float: left;
+    margin-top: 100px;
+    padding-bottom: 2%;
+    
+}
+
+.text-3-1 {
+    margin: 100px;
+
 }
 
