@@ -1,4 +1,40 @@
 *{
     background-color: rgb(182, 180, 177);
     font-family: 'Nunito', sans-serif;
+    margin: 0;
 }
+
+a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
+a:hover {
+    color: rgb(237, 31, 100);
+}
+
+.header {
+    
+    margin-bottom: 100px;
+    
+  
+    
+}
+
+.header-li {
+    background-color: black;
+    padding-bottom: 20px;
+    
+}
+
+ul {
+    background-color: black;
+}
+
+.text {
+    margin-left: 60px;
+    width: 60%;
+}
+
