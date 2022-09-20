@@ -34,7 +34,17 @@ ul {
 }
 
 .text {
-    margin-left: 60px;
-    width: 60%;
+    float: left;
+    margin-left: 5%;
+    width: 45%;
+}
+
+.cloud-servers-img {
+    width: 40%;
+    float: right;
+    margin-left: 10%;
+    margin-top: 15%;
+
+
 }
 
