@@ -140,11 +140,7 @@ a:hover {
 }
 
 .text-abby1 {
-    margin: 50px;
-}
-
-.div-abby1
-  margin: 100px 500px;
+    margin: 50px, 100px, 100px;
 }
 
     
