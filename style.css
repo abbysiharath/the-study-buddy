@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+h1 {
+text-align:center;
+}
+
 a {
     text-decoration: none;
     background-color: black;
@@ -19,7 +23,7 @@ a:hover {
 .header-li {
     background-color: black;
     padding-bottom: 20px;
-    
+
 }
 
 .ul-header {
@@ -69,9 +73,9 @@ a:hover {
     width: 45%;
     margin-top: 100px;
     float: left;
-    
+
     margin-left: 5%;
-    
+
 }
 
 .car {
@@ -116,11 +120,10 @@ a:hover {
     float: left;
     margin-top: 100px;
     padding-bottom: 2%;
-    
+
 }
 
 .text-3-1 {
     margin: 100px;
 
 }
-
