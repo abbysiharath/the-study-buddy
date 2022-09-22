@@ -1,11 +1,16 @@
 *{
-    background-color: rgb(182, 180, 177);
     font-family: 'Nunito', sans-serif;
     margin: 0;
+    text-align: justify;
+}
+
+body {
+    background-color: rgb(182, 180, 177);
 }
 
 h1 {
-text-align:center;
+    text-align:center;
+    margin-top: 10px;
 }
 
 a {
