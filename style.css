@@ -23,7 +23,7 @@ a:hover {
 .header-li {
     background-color: black;
     padding-bottom: 20px;
-    
+
 }
 
 ul {
@@ -73,9 +73,9 @@ ul {
     width: 45%;
     margin-top: 100px;
     float: left;
-    
+
     margin-left: 5%;
-    
+
 }
 
 .car {
@@ -120,11 +120,10 @@ ul {
     float: left;
     margin-top: 100px;
     padding-bottom: 2%;
-    
+
 }
 
 .text-3-1 {
     margin: 100px;
 
 }
-
