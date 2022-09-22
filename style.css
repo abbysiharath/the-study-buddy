@@ -143,8 +143,17 @@ a:hover {
 }
 
  .text-abby2 {
+    margin: 100px;
+}
+
+ .text-abby3 {
+    float: left;
     margin: 50px;
     width: 45%;
 }
 
-      
+  .myImage-abby1 {
+  float: right;
+  height: 50px;
+  width: 75px;
+}
