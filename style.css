@@ -50,7 +50,7 @@ a:hover {
     width: 40%;
     float: right;
     margin-left: 10%;
-    margin-top: 8%;
+    margin-top: 5%;
 
 }
 
@@ -131,7 +131,7 @@ a:hover {
 
 .solana-img {
     width: 45%;
-    margin-left: 10%;
+    margin-left: 28%;
     float: left;
     margin-top: 100px;
     padding-bottom: 2%;
@@ -218,4 +218,26 @@ a:hover {
 
 .project-li {
     font-weight: bold;
+}
+
+.tools-tech {
+    padding-top: 50px;
+    float: left;
+    padding-left: 25%;
+    padding-right: 25%;
+
+}
+
+.skills {
+    padding-top: 50px;
+    float: left;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.outcome {
+    padding-top: 50px;
+    float: left;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 10%;
 }
