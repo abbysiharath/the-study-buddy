@@ -2,6 +2,7 @@
     font-family: 'Nunito', sans-serif;
     margin: 0;
     text-align: justify;
+   
 }
 
 body {
@@ -46,6 +47,13 @@ a:hover {
     width: 45%;
 }
 
+.text-1-1 {
+    float: left;
+    margin-left: 5%;
+    width: 45%;
+
+}
+
 .cloud-servers-img {
     width: 40%;
     float: right;
@@ -84,28 +92,29 @@ a:hover {
 
 
 .text-2 {
-    width: 45%;
+
     margin-top: 100px;
     float: left;
-
-    margin-left: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
 
 }
 
 .car {
-    width: 45%;
-    margin-left: 5%;
-    margin-top: 17%;
-    float: right;
-}
+    width: 100%;
+    margin-left: 29%;
 
+    float: left;
+}
 .text-2-1 {
     float: left;
-    display: block;
+   
     margin-top: 5%;
     margin-left: 25%;
     width: 45%;
 }
+
+
 
 .section-5 {
     float: left;
@@ -121,8 +130,8 @@ a:hover {
 
 
 .text-3 {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .section-6 {
@@ -138,11 +147,22 @@ a:hover {
 
 .text-3-1 {
     float: left;
-    display: block;
+    padding-right: 25%;
     margin-top: 5%;
     margin-left: 25%;
-    width: 45%;
+    margin-right: 25%;
+    width: 50%;
    
+
+}
+
+.text-4 {
+    float: left;
+    margin-top: 5%;
+    margin-left: 25%;
+    padding-right: 25%;
+    margin-right: 100%;
+    width: 50%;
 
 }
 
@@ -186,6 +206,9 @@ a:hover {
 .chatterbox {
     text-align: center;
     width: 100%;
+    float: left;
+    margin: 25%px;
+    margin-left: -30px;
     
 }
 
@@ -237,3 +260,5 @@ a:hover {
     padding-right: 25%;
     padding-bottom: 10%;
 }
+
+
