@@ -132,9 +132,7 @@ a:hover {
 .solana-img {
     width: 45%;
     margin-left: 28%;
-    float: left;
     margin-top: 100px;
-    padding-bottom: 2%;
 
 }
 
@@ -186,10 +184,8 @@ a:hover {
 }
 
 .chatterbox {
-    float: left;
     text-align: center;
     width: 100%;
-    margin-left: -80px;
     
 }
 
