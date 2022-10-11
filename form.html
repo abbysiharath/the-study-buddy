@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,800;1,500&family=Raleway:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <li class="header-li">
+          <ul>
+            <a href="index.html">Team Profile</a>
+            <a href="idealJobs.html">Ideal Jobs</a>
+            <a href="industryData.html">Industry Data</a>
+            <a href="ITTechnologies.html">IT Technologies</a>
+            <a href="ITWork.html">IT Work</a>
+            <a href="projectIdea.html">Project Idea</a>
+            <a href="reflections.html">Reflections</a>
+          </ul>
+        </li>
+      </div>
+    </header>
+
+    <h1>Contact</h1>
+
+    <form action="process-form.php" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message"></textarea>
+
+      <label for="priority">Priority</label>
+      <select id="priority" name="priority">
+        <option value="1">Low</option>
+        <option value="2" selected>Medium</option>
+        <option value="3">High</option>
+      </select>
+
+      <fieldset>
+        <legend>Type</legend>
+
+        <label>
+          <input type="radio" name="type" value="1" checked />
+          Complaint
+        </label>
+
+        <br />
+
+        <label>
+          <input type="radio" name="type" value="2" />
+          Suggestion
+        </label>
+      </fieldset>
+
+      <label>
+        <input type="checkbox" name="terms" />
+        I agree to the terms and conditions
+      </label>
+
+      <br />
+
+      <button>Send</button>
+    </form>
+  </body>
+</html>
