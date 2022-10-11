@@ -13,10 +13,8 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,800;1,500&family=Raleway:wght@300;500&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css"
-    />
+
+    <link rel="stylesheet" href="contact-us.css" />
   </head>
   <body>
     <header>
@@ -30,28 +28,48 @@
             <a href="ITWork.html">IT Work</a>
             <a href="projectIdea.html">Project Idea</a>
             <a href="reflections.html">Reflections</a>
+            <a href="form.html">Contact Us</a>
           </ul>
         </li>
       </div>
     </header>
 
-    <h1>Contact</h1>
-
-    <form action="process-form.php" method="post">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" />
-
-      <label for="message">Message</label>
-      <textarea id="message" name="message"></textarea>
-
-      <label>
-        <input type="checkbox" name="terms" />
-        I agree to the terms and conditions
-      </label>
-
-      <br />
-
-      <button>Send</button>
-    </form>
+    <div class="container">
+      <div class="row">
+        <h1>contact us</h1>
+      </div>
+      <div class="row">
+        <h4 style="text-align: center">Subscribe to our newsletter!</h4>
+      </div>
+      <div class="row input-container">
+        <div class="col-xs-12">
+          <div class="styled-input wide">
+            <input type="text" required />
+            <label>Name</label>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="styled-input">
+            <input type="text" required />
+            <label>Email</label>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="styled-input" style="float: right">
+            <input type="text" required />
+            <label>Phone Number</label>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="styled-input wide">
+            <textarea required></textarea>
+            <label>Message</label>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="btn-lrg submit-btn">Send Message</div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
