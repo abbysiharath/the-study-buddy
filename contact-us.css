@@ -160,3 +160,21 @@ input[type=checkbox]:checked + label {
   color: #f00;
   font-style: normal;
 }
+
+.button {
+    background-color: rgb(237, 31, 100) ;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    border: none;
+}
+
+.thank-you {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.meme {
+    padding-top: 100px;
+    text-align: center;
+}
