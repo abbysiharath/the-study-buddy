@@ -169,32 +169,7 @@ a:hover {
 }
 
 
-.section-abby1 {
-    padding: 50px;
-}
 
-.text-abby1 {
-    margin: 50px;
-}
-
- .text-abby2 {
-    margin: 450px;
-    margin-top: 5%;
-    margin-bottom: 5%;     
-}
-
- .text-abby3 {
-    float: left;
-    margin: 50px;
-    width: 45%;
-}
-
-.center-abby {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
 
 .natural-language {
     float: left;
@@ -263,6 +238,52 @@ a:hover {
     padding-bottom: 10%;
 }
 
+
+.study-spaces-body {
+    text-align: center;
+    margin: 20px;
+    
+    
+}
+
+.study-spaces-title {
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.row {
+    padding: 30px;
+}
+
+
+
+.column {
+    text-align: center;
+    padding: 30px;
+}
+
+.p-study-spaces {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.p2-study-spaces {
+    text-align: center;
+    font-size: large;
+    padding-bottom: 80px;
+}
+
+.footer {
+    text-align: center;
+    
+}
+
+.email-link {
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+}
 
 
 

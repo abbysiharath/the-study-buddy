@@ -178,3 +178,10 @@ input[type=checkbox]:checked + label {
     padding-top: 100px;
     text-align: center;
 }
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
