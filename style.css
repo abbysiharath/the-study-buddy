@@ -285,5 +285,29 @@ a:hover {
     color: black;
 }
 
+.h1-locations {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin: 50px;
+}
+
+.locations {
+    text-align: center;
+    margin: 50px;
+    font-size: 30px;
+    color: white;
+}
+
+.h3-locations {
+    margin-left: 3%;
+}
+
+.footer {
+    text-align: center;
+    margin: 50px;
+   
+    
+}
 
 
