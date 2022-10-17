@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(229, 229, 229);
+    background-color: rgb(80, 80, 80);
 }
 
 h1 {
@@ -242,6 +242,7 @@ a:hover {
 .study-spaces-body {
     text-align: center;
     margin: 20px;
+    color: white;
     
     
 }
@@ -249,6 +250,7 @@ a:hover {
 .study-spaces-title {
     font-size: 50px;
     margin-top: 80px;
+    color: white;
 }
 
 .row {
@@ -267,11 +269,13 @@ a:hover {
     font-weight: bold;
     padding-top: 30px;
     font-size: 30px;
+    color: white;
 }
 .p2-study-spaces {
     text-align: center;
     font-size: large;
     padding-bottom: 80px;
+    color: white;
 }
 
 .footer {
@@ -282,7 +286,7 @@ a:hover {
 .email-link {
     text-decoration: none;
     background-color: transparent;
-    color: black;
+    color: white;
 }
 
 .h1-locations {
@@ -309,5 +313,28 @@ a:hover {
    
     
 }
+
+.classes-h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin: 50px;
+}
+
+.classes {
+    text-align: center;
+    margin: 50px;
+    font-size: 30px;
+    color: white;
+
+}
+
+.classes-body {
+    background-color: rgb(80, 80, 80);
+}
+
+
+
+
 
 
