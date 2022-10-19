@@ -12,28 +12,43 @@ a:hover {
 }
 
 
+h1 {
+  text-align: center;
+  color: crimson;
+  font-size: 30px;
+  margin: 50px;
+}
+
 a {
     text-decoration: none;
-    margin: 10px;
+    margin: 5px;
     transition: 0.5s ease-out;
     color: white;
+}
+
+button {
+  font-weight: 500;
+  font-size: 20px;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.5s ease-out;
 }
 
 .title {
   font-size: 30px;
   float: left;
   color: darkturquoise;
-}
 
-.lists {
-  float: right;
 }
 
 .header-li {
     background-color: #2B7A78;
     padding-bottom: 75px;
     font-size: 20px;
-    
+
 
 
 }
@@ -48,12 +63,6 @@ body {
 
 }
 
-h1 {
-  text-align: center;
-  color: crimson;
-  font-size: 50px;
-  margin: 30px;
-}
 
 h4 {
 
