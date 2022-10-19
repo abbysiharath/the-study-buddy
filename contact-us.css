@@ -33,6 +33,7 @@ a {
     background-color: #2B7A78;
     padding-bottom: 75px;
     font-size: 20px;
+    
 
 
 }
@@ -184,6 +185,7 @@ input[type=checkbox]:checked + label {
 .thank-you {
     padding-top: 50px;
     text-align: center;
+    color: white;
 }
 
 .meme {
