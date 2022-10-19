@@ -38,20 +38,40 @@ button {
 }
 
 .title {
-  font-size: 30px;
-  float: left;
-  color: darkturquoise;
+    font-size: 30px;
+    float: left;
+    color: darkturquoise;
+  
+  }
+  
+  .lists {
+    float: right;
+    margin-right: 15px;
+  }
+  
+  a:hover {
+      color: rgb(237, 31, 100);
+      background-position: -100%;
+  }
+  
+  
+  
+  .header-li {
+      background-color: #2B7A78;
+      padding-bottom: 30px;
+      font-size: 20px;
+  
+  }
+  
+  .ul-header {
+      background-color: #2B7A78;
+      list-style-type: none;
+  }
 
-}
-
-.header-li {
-    background-color: #2B7A78;
-    padding-bottom: 75px;
-    font-size: 20px;
 
 
 
-}
+
 
 .ul-header {
     background-color: #2B7A78;
