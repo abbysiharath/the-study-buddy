@@ -12,13 +12,13 @@ body {
 h1 {
   text-align: center;
   color: crimson;
-  font-size: 50px;
-  margin: 30px;
+  font-size: 30px;
+  margin: 50px;
 }
 
 a {
     text-decoration: none;
-    margin: 10px;
+    margin: 5px;
     transition: 0.5s ease-out;
     color: white;
 }
@@ -29,10 +29,12 @@ a {
   font-size: 30px;
   float: left;
   color: darkturquoise;
+  
 }
 
 .lists {
   float: right;
+  margin-right: 15px;
 }
 
 a:hover {
