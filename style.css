@@ -451,7 +451,7 @@ s
   background: rgba(24,39,51,0.85);
   border-radius: 50%;
   width: 200vw;
-  height: 200vw;
+  height: 150vw;
   display: flex;
   flex: none;
   align-items: center;
@@ -463,6 +463,7 @@ s
 
 .menu-w .menu > .class-demo > .class-demo {
   text-align: center;
+  padding-bottom: 300px;
   max-width: 90vw;
   max-height: 100vh;
   opacity: 0;
