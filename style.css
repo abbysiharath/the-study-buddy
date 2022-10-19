@@ -57,7 +57,7 @@ a:hover {
 .header-li {
     background-color: #2B7A78;
     padding-bottom: 70px;
-    font-size: 20px;
+    font-size: 17px;
 
 }
 
@@ -356,9 +356,6 @@ s
 
 }
 
-
-
-
 .menu-w {
   position: relative;
   top: 0;
@@ -506,4 +503,19 @@ s
 .menu-w .toggle:checked ~ .menu > .class-demo > .class-demo {
   opacity: 1;
   transition: opacity 0.4s ease;
+}
+
+
+
+.community-div p {
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+.community-text p {
+    color: white;
+    text-align: center;
+    font-size: large;
 }
