@@ -44,6 +44,7 @@ button {
 .lists {
   float: right;
   margin-right: 15px;
+
 }
 
 a:hover {
@@ -55,8 +56,8 @@ a:hover {
 
 .header-li {
     background-color: #2B7A78;
-    padding-bottom: 30px;
-    font-size: 20px;
+    padding-bottom: 70px;
+    font-size: 17px;
 
 }
 
@@ -82,7 +83,7 @@ a:hover {
 
 }
 
-s
+
 
 .div-1-1 {
     display: block;
@@ -353,4 +354,208 @@ s
 .thank-you {
     color: white;
 
+}
+
+.menu-w {
+  position: relative;
+  top: 0;
+  right: 1;
+}
+
+.menu-w .toggle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  opacity: 0;
+}
+
+.menu-w .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  padding: 1rem;
+  background: midnight-blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-w .icon > .class-demo {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+}
+
+
+.menu-w .icon > .class-demo::before, .menu-w .icon > .class-demo::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: -23px;
+  width: 100%;
+  height: 2px;
+  background: inherit;
+
+}
+
+.menu-w .icon > .class-demo::after {
+  top: 23px;
+}
+
+.menu-w .toggle:checked + .icon > .class-demo {
+  transform: rotate(135deg);
+}
+
+.menu-w .toggle:checked + .icon > .class-demo::before,
+.menu-w .toggle:checked + .icon > .class-demo::after {
+  top: 0;
+  transform: rotate(90deg);
+
+}
+
+
+.menu-w .toggle:checked:hover + .icon > .class-demo {
+  transform: rotate(225deg);
+
+}
+
+.menu-w .menu {
+  margin-top: 130px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-w .menu > .class-demo {
+  background: rgba(24,39,51,0.85);
+  border-radius: 50%;
+  width: 200vw;
+  height: 150vw;
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+  transition: all 0.4s ease;
+
+}
+
+.menu-w .menu > .class-demo > .class-demo {
+  text-align: center;
+  padding-bottom: 120px;
+  max-width: 90vw;
+  max-height: 100vh;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+
+}
+.menu-w .menu > .class-demo > .class-demo > .ul-demo > .li-demo {
+  list-style: none;
+  color: white;
+  font-size: 25px;
+  padding: 1rem;
+
+}
+
+.menu-w .menu > .class-demo > .class-demo > .ul-demo > .li-demo > .a-demo {
+  color: white;
+  text-decoration: none;
+  transition: color 0.4s ease;
+
+}
+.menu-w .menu > .class-demo > .class-demo > .ul-demo > .menu-header {
+  color: white;
+  text-decoration: none;
+  transition: color 0.4s ease;
+  font-size: 30px;
+  padding: 1rem;
+
+}
+
+.menu-w .toggle:checked ~ .menu {
+  visibility: visible;
+
+}
+
+.menu-w .toggle:checked ~ .menu > .class-demo {
+  transform: scale(1);
+  transition-duration: all 0.4s ease;
+}
+
+.menu-w .toggle:checked ~ .menu > .class-demo > .class-demo {
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+
+
+
+.community-div p {
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding-top: 30px;
+}
+
+.community-text p {
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+.community {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding-top: 30px;
+}
+
+.restaurant {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bars {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.to-do {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.golf {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.community-p {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+.community-margin {
+  margin: 10px;
 }
