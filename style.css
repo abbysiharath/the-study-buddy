@@ -83,7 +83,7 @@ a:hover {
 
 }
 
-s
+
 
 .div-1-1 {
     display: block;
@@ -508,14 +508,54 @@ s
 
 
 .community-div p {
-    margin-top: 100px;
     color: white;
     text-align: center;
     font-size: large;
+    padding-top: 30px;
 }
 
 .community-text p {
     color: white;
     text-align: center;
     font-size: large;
+}
+
+.community {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding-top: 30px;
+}
+
+.restaurant {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bars {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.to-do {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.golf {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.community-p {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+.community-margin {
+  margin: 10px;
 }
